@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "notbrewery",
+  "version": "${version}",
+  "name": "NotBrewery",
+  "description": "Who the fuck would know why it's needed?",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/notbrewery/icon.png",
+  "accessWidener": "nbrew.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wtf.chdkov.notbrewery.Notbrewery"
+    ]
+  },
+  "mixins": [
+    "nbrew.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

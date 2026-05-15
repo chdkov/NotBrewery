@@ -1,0 +1,21 @@
+{
+  "name": "Золотой Тест",
+  "color": "0xFFD700",
+  "item_model": "notbrewery:item/golden_ale",
+
+  "cooking_time_ticks": 1200,
+  "heat_type": "campfire",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:gold_nugget"
+  ],
+  "container": "minecraft:glass_bottle",
+  "yield": 3,
+
+  "effects": [
+    { "id": "minecraft:haste", "duration": 600, "amplifier": 1 },
+    { "id": "minecraft:nausea", "duration": 100, "amplifier": 0, "probability": 0.5 }
+  ],
+
+  "fail_result": "minecraft:poisonous_potato"
+}

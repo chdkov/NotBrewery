@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "notbrewery:content/liquid",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -13083194
+      }
+    ]
+  }
+}

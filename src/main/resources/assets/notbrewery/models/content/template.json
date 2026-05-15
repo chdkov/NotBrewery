@@ -1,0 +1,13 @@
+{
+	"format_version": "1.21.11",
+	"credit": "alkashka",
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 0, 14],
+			"faces": {
+				"up": { "texture": "#0", "tintindex": 0}
+			}
+		}
+	]
+}

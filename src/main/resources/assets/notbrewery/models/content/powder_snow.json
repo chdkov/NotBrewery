@@ -1,0 +1,6 @@
+{
+  "parent": "notbrewery:content/template",
+  "textures": {
+    "0": "minecraft:block/powder_snow"
+  }
+}
